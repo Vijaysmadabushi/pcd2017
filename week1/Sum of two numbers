@@ -3,11 +3,10 @@
 int main() {
   int a = 3;
   float b = 4.5;
-  double c = 5.25;
   float sum;
 
-  sum = a + b + c; /* Your code goes here */
+  sum = a + b ; /* Your code goes here */
 
-  printf("The sum of a, b, and c is %f.", sum);
+  printf("The sum of a and b is %f.", sum);
   return 0;
 }
